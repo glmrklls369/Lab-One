@@ -35,3 +35,59 @@ p {
   border-left-style: solid;
   padding: 5px;
 }
+
+@media only screen and (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    
+  }
+  ul {
+    display: flex;
+    margin: 6px;
+  }
+  .buttons {
+    width: auto;
+    padding: 10px;
+  }
+
+#part-two {
+  width: 50%;
+  position: absolute;
+  top: 25%;
+}
+
+#pink {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  background-color: rgba(247, 136, 167, 0.6);
+  border-radius: 100%;
+  left: 70%;
+  top: 28%;
+}
+#purple {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  background-color: rgba(207, 130, 213, 0.6);
+  border-radius: 100%;
+  left: 88%;
+  top: 35%;
+}
+#yellow {
+  height: 170px;
+  width: 170px;
+  position: absolute;
+  background-color: rgba(247, 193, 162, 0.7);
+  border-radius: 100%;
+  left: 85%;
+  top: 51%;
+}
+#scroll {
+  position: absolute;
+  left: 50%;
+  top:85%;
+
+}
